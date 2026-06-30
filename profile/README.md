@@ -91,8 +91,17 @@ The open-source projects are built in the open, and we'd love your help.
 <div align="center">
 <br/>
 
-[![Studio](https://github-readme-stats.vercel.app/api/pin/?username=libredb&repo=libredb-studio&theme=default)](https://github.com/libredb/libredb-studio)
-[![Engine](https://github-readme-stats.vercel.app/api/pin/?username=libredb&repo=libredb-database&theme=default)](https://github.com/libredb/libredb-database)
+**LibreDB Studio** &nbsp;
+[![Stars](https://img.shields.io/github/stars/libredb/libredb-studio?style=flat&logo=github)](https://github.com/libredb/libredb-studio/stargazers)
+[![Forks](https://img.shields.io/github/forks/libredb/libredb-studio?style=flat&logo=github)](https://github.com/libredb/libredb-studio/network/members)
+[![Issues](https://img.shields.io/github/issues/libredb/libredb-studio)](https://github.com/libredb/libredb-studio/issues)
+[![Last commit](https://img.shields.io/github/last-commit/libredb/libredb-studio)](https://github.com/libredb/libredb-studio/commits)
+
+**LibreDB engine** &nbsp;
+[![Stars](https://img.shields.io/github/stars/libredb/libredb-database?style=flat&logo=github)](https://github.com/libredb/libredb-database/stargazers)
+[![Forks](https://img.shields.io/github/forks/libredb/libredb-database?style=flat&logo=github)](https://github.com/libredb/libredb-database/network/members)
+[![Issues](https://img.shields.io/github/issues/libredb/libredb-database)](https://github.com/libredb/libredb-database/issues)
+[![Last commit](https://img.shields.io/github/last-commit/libredb/libredb-database)](https://github.com/libredb/libredb-database/commits)
 
 <sub>Made by the LibreDB team · <a href="https://libredb.org">libredb.org</a></sub>
 
