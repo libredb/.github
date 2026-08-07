@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/libredb/libredb-studio/main/public/logo.svg" width="110" alt="LibreDB" />
 
-# Hi, we're LibreDB 👋
+# Hi, we're LibreDB
 
 **Database tools we'd want to use ourselves. Most of them open source, all of them built on one foundation.**
 
@@ -16,6 +16,8 @@ We make three things.
 
 Two are open source and free: a web-based SQL/NoSQL IDE that runs in your browser, and a small embeddable database engine you can read end to end. The third is **LibreDB Platform**, a commercial product for teams and enterprises, and it's what pays for the open-source work. So Studio and the engine stay free, and stay maintained.
 
+Studio is MIT because it has to be. You cannot place a per-seat licensed, feature-gated tool into every environment you own — so nothing is held back for a paid edition. Platform charges for a service, not for the features.
+
 One foundation, three products. Here's the tour.
 
 ## LibreDB Studio: the open-source SQL/NoSQL web IDE
@@ -24,13 +26,13 @@ One foundation, three products. Here's the tour.
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=libredb_libredb-studio&metric=alert_status)](https://sonarcloud.io/project/overview?id=libredb_libredb-studio)
 [![DeepWiki](https://img.shields.io/badge/Docs-DeepWiki-blue?logo=gitbook)](https://deepwiki.com/libredb/libredb-studio)
 
-A professional database editor that lives in your browser. No install, and it works on a 4K monitor or a phone. It sits between heavy desktop clients and bare CLIs: the power of DataGrip, reachable from a URL.
+Databases moved to the cloud. The tools that read them stayed on the laptop. Studio is the editor that goes the other way: it deploys next to the data — a container, a Helm chart, an operator, a one-click template, or an npm package inside your own product. Nothing has to face outward, and it works on a 4K monitor or a phone.
 
-- **AI-native:** NL2SQL with your choice of model (Gemini, OpenAI, or a local LLM)
+- **Ten engines, one interface:** PostgreSQL, MySQL, Oracle, SQL Server, SQLite, MongoDB, Redis, Couchbase, ClickHouse, Apache Druid
 - **A real IDE:** Monaco engine, schema-aware autocomplete, multi-tab workspace, visual EXPLAIN
 - **See your schema:** interactive ER diagrams, schema diff, migration SQL, snapshot timeline
-- **SQL and NoSQL:** PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, Redis, SQLite
-- **Enterprise-ready:** RBAC, SSO (OIDC), query auditing, Docker & Kubernetes
+- **AI with your own model:** NL2SQL against Gemini, OpenAI, or a local LLM
+- **Nothing behind a wall:** RBAC, SSO (OIDC), query audit trail and ER diagrams all ship under MIT
 
 <p align="center">
   <a href="https://app.libredb.org">
@@ -66,7 +68,7 @@ Distributing database credentials by hand doesn't scale, and it isn't safe. **Pl
 
 Built on the same Studio engine, with governance on top: RBAC, encrypted credentials, full query audit, billing and plans. This is the commercial product that funds everything above it.
 
-**[See plans & book a demo →](https://libredb.github.io)**
+**[See plans & book a demo →](https://libredb.org/platform)**
 
 ## How it all fits together
 
@@ -83,10 +85,10 @@ Start anywhere. Embed the engine in your app, run Studio for your own databases,
 
 The open-source projects are built in the open, and we'd love your help.
 
-- ⭐ Star [Studio](https://github.com/libredb/libredb-studio) and [the engine](https://github.com/libredb/libredb-database) if they're useful to you
-- 🐛 Open an issue or a PR. Both repos welcome contributions.
-- 💬 Say hello in [Discussions](https://github.com/orgs/libredb/discussions)
-- 💖 [Sponsor us](https://github.com/sponsors/libredb) to help keep Studio and the engine free
+- Star [Studio](https://github.com/libredb/libredb-studio) and [the engine](https://github.com/libredb/libredb-database) if they're useful to you
+- Open an issue or a PR. Both repos welcome contributions.
+- Say hello in [Discussions](https://github.com/orgs/libredb/discussions)
+- [Sponsor us](https://github.com/sponsors/libredb) to help keep Studio and the engine free
 
 <div align="center">
 <br/>
